@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LDS Community Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo1.png" alt="Logo" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">My Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="librariesDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Libraries</a>
+                            <ul class="dropdown-menu" aria-labelledby="librariesDropdown">
+                                <li><a class="dropdown-item" href="#">Gospel Library</a></li>
+                                <li><a class="dropdown-item" href="#">Media Library</a></li>
+                                <li><a class="dropdown-item" href="#">Music Library</a></li>
+                                <li><a class="dropdown-item" href="#">Life Help</a></li>
+                                <li><a class="dropdown-item" href="#">Topics and Questions</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="chatsDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-labelledby="false">chats</a>
+                            <ul class="dropdown-menu" aria-labelledby="chatsDropdown">
+                                <li><a class="dropdown-item" href="#">Chat Room</a></li>
+                                <li><a class="dropdown-item" href="#">Video Chat</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                    </ul>
+
+                    <!-- Search Bar -->
+                    <form class="d-flex me-3">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+
+                    <!-- Right Section -->
+                    <div class="d-flex align-items-center">
+                        <!-- Find a Church Icon -->
+                        <div class="dropdown me-3">
+                            <button class="btn btn-link text-white" id="findChurchDropdown" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="findChurchDropdown">
+                                <li><a class="dropdown-item" href="#">Search by City</a></li>
+                                <li><a class="dropdown-item" href="#">Search by Address</a></li>
+                                <li><a class="dropdown-item" href="#">Locate Nearby Churches</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Language Selector Icon -->
+                        <div class="dropdown me-3">
+                            <button class="btn btn-link text-white" id="languageDropdown" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="bi bi-translate"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">Español</a></li>
+                                <li><a class="dropdown-item" href="#">Français</a></li>
+                                <li><a class="dropdown-item" href="#">Deutsch</a></li>
+                                <li><a class="dropdown-item" href="#">中文</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Resources Selector Icon -->
+                        <div class="dropdown me-3">
+                            <button class="btn btn-link text-white" id="resourcesDropdown" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="bi bi-book"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="resourcesDropdown">
+                                <li><a class="dropdown-item" href="#">Study Guides</a></li>
+                                <li><a class="dropdown-item" href="#">Articles</a></li>
+                                <li><a class="dropdown-item" href="#">Videos</a></li>
+                                <li><a class="dropdown-item" href="#">Community Support</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Sign-In Button -->
+                        <button class="btn btn-primary">Sign In</button><!-- Resources Selector Icon -->
+                        <div class="dropdown me-">
+                            <button class="btn btn-link text-white" id="resourcesDropdown" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="bi bi-arrow-down"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="resourcesDropdown">
+                                <li><a class="dropdown-item" href="#">Sign-In</a></li>
+                                <li><a class="dropdown-item" href="#">Forgot Password</a></li>
+                                <li><a class="dropdown-item" href="#">Create Account</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container text-center">
+            <h1>Welcome to the LDS Cummunity Hub</h1>
+            <p>We committed to help you grow spiritually, Physically, and mentally </p>
+            <p>By bring you closer with all saints,from around the world Join us today </p>
+            <a href="#" class="btn btn-light btn-lg">Get start</a>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content">
+        <div class="container">
+            <h2>Our Commitment</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/prayer.png" alt="Faith">
+                    <h3>spiritually</h3>
+                    <p>Learn and grow spiritually.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/health.png" alt="Community">
+                    <h3>Physically</h3>
+                    <p>learn and grow Physically.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/mental-health.png" alt="Service">
+                    <h3>mentally</h3>
+                    <p>learn and grow mentally.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2025 LDS Community Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
